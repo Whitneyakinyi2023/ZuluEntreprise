@@ -11,7 +11,7 @@ require("dotenv").config();
 const cors = require("cors");
 
 // Importing axios for making HTTP requests
-// const axios = require("axios");
+const axios = require("axios");
 
 // Retrieving the port number from environment variables
 const port = process.env.PORT || 3000;  // Default to port 3000 if not set in .env

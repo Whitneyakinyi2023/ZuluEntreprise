@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Glenfidich 12Yo 1L",
+        "type": "Whisky",
+        "size": "1L",
+        "price_incl": 4800.00
+    },
+    {
+        "name": "John Walker Black 1L",
+        "type": "Whisky",
+        "size": "1L",
+        "price_incl": 2830.00
+    },
+    {
+        "name": "Jameson 1L",
+        "type": "Whisky",
+        "size": "1L",
+        "price_incl": 2150.00
+    }
+]

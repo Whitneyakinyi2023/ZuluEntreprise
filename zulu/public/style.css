@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Home Page Styles */
+.home {
+    padding: 2rem;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+}
+
+/* Product List Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.product-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Shopping Cart Styles */
+.cart {
+    padding: 2rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cart-item div {
+    flex: 1;
+}
+
+.cart-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Checkout Page Styles */
+.checkout {
+    padding: 2rem;
+}
+
+.checkout-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid #ccc;
+}
+
+.checkout-form h2 {
+    margin-bottom: 1.5rem;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkout-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-form button:hover {
+    background-color: #555;
+}
+
+/* Order Tracking Styles */
+.order-tracking {
+    padding: 2rem;
+    text-align: center;
+}
+
+.order-tracking h2 {
+    margin-bottom: 1rem;
+}
+
+.order-tracking p {
+    color: #666;
+}
