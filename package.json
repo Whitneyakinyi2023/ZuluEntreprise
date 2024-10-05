@@ -1,0 +1,28 @@
+{
+  "name": "ZuluEntreprise",
+  "version": "1.0.0",
+  "description": "## Table of Contents - [Project Overview](#project-overview) - [Features](#features) - [Technology Stack](#technology-stack) - [Prerequisites](#prerequisites) - [Installation](#installation) - [Environment Variables](#environment-variables) - [API Endpoints](#api-endpoints) - [Usage](#usage) - [Admin Dashboard](#admin-dashboard) - [Payment Integration](#payment-integration) - [Order Tracking](#order-tracking) - [Search and Filter](#search-and-filter) - [WhatsApp Order Handling](#whatsapp-order-handling) - [Chatbot Support](#chatbot-support) - [Future Enhancements](#future-enhancements) - [Contributors](#contributors) - [License](#license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Whitneyakinyi2023/ZuluEntreprise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Whitneyakinyi2023/ZuluEntreprise/issues"
+  },
+  "homepage": "https://github.com/Whitneyakinyi2023/ZuluEntreprise#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
