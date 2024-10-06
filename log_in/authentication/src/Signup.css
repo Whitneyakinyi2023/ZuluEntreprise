@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* Choose a modern yet natural font */
+    background-color: #fdf4e7;
+    /* Warm background color */
+    color: #4a2f27;
+    /* Earthy text color */
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff7eb;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #b28451;
+    /* Earthy tone */
+}
+
+h2 {
+    text-align: center;
+    color: #e76f51;
+    /* Vibrant orange, inspired by sunsets */
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #2b2b2b;
+    /* Darker text color */
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #e9c46a;
+    /* Gold-like color */
+    background-color: #ffedd6;
+    /* Warm beige */
+    color: #4a2f27;
+    outline: none;
+}
+
+input:focus {
+    border-color: #e76f51;
+    /* Highlight focus with orange */
+}
+
+input.input-error {
+    border-color: #e63946;
+    /* Error red color */
+}
+
+.error {
+    color: #e63946;
+    font-size: 0.875rem;
+}
+
+.success-message {
+    text-align: center;
+    color: #2a9d8f;
+    /* Green to symbolize success or growth */
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Button Styles */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #264653;
+    /* Deep teal for contrast */
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #2a9d8f;
+    /* Lighter teal when hovered */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .signup-container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
+/* African-inspired Patterns */
+.signup-container {
+    background-image: url('https://example.com/african-pattern.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+h2 {
+    border-bottom: 3px solid #e76f51;
+    /* Border inspired by African textile patterns */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Optional additional styling for cultural aesthetic */
