@@ -1,0 +1,233 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Playfair Display', serif;
+    /* Sleeker, high-end font */
+    background-color: #f0e5cf;
+    /* Soft cream for a sophisticated feel */
+    color: #333;
+    background-image: url('/assets/shaka.PNG');
+    /* Background image for that luxury vibe */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Sleek black background */
+    color: rgba(255, 215, 0, 0.8);
+    /* Luxurious gold text */
+    padding: 20px 40px;
+    /* More generous padding for elegance */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d4af37;
+    /* Add gold bottom border */
+}
+
+header .logo h1 {
+    font-size: 36px;
+    font-family: 'Bodoni Moda', serif;
+    /* Fancy serif for the logo */
+    letter-spacing: 2px;
+}
+
+header .logo p {
+    font-size: 16px;
+    font-style: italic;
+    /* Adds a chic touch */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    /* Gold color for the links */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    /* Highlight on hover */
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #d4af37;
+    /* Elegant gold border */
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Slight transparency for luxury */
+}
+
+.search-bar button {
+    background-color: #d4af37;
+    /* Gold button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #b8860b;
+    /* Darker gold on hover */
+}
+
+/* Product section styling */
+#products {
+    padding: 60px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* A soft, transparent layer */
+    text-align: center;
+    backdrop-filter: blur(8px);
+    /* Blurred background for glam */
+}
+
+#products h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    /* Glamorous shadow */
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect for interaction */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.product p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #b8860b;
+    /* Dark gold color */
+}
+
+.order-btn {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #b8860b;
+}
+
+/* Login section styling */
+#login {
+    padding: 60px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    background-color: #d4af37;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #b8860b;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.overlay {
+    opacity: 0.5;
+    /* Adjust value between 0 (fully transparent) and 1 (fully opaque) */
+}
